@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1.1em;
+}
+
+input, button {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1.1em;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .page-container {
+        padding: 16px;
+        width: 65%;
+    }
+    
+    .first-box, .lower-box {
+        margin: 8px;
+    }
+    
+    .first-box {
+        align-items: center;
+        background-color: rgb(106, 138, 237);
+        border: 2px solid #666;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first-box-items {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .first-box-item {
+        margin: 8px;
+    }
